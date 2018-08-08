@@ -54,6 +54,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScreenPen\Line.cs" />
+    <Compile Include="ScreenPen\Oval.cs" />
+    <Compile Include="ScreenPen\Rectangle.cs" />
+    <Compile Include="ScreenPen\Shape.cs" />
+    <Compile Include="ScreenPen\ShapeFactory.cs" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
